@@ -1,0 +1,42 @@
+.td-1 {
+    height: 2000px;
+    width: 950px;
+    position: relative;
+    left: 350px;
+    background-color: #F0F8FF;
+    padding: 20px;
+    border: 2px solid #e1e2e2;
+    margin-bottom: 120px;
+}
+
+.td-div-1 {
+    position: absolute;
+}
+
+.td-div-2 {
+    position: absolute;
+    width: 855px;
+    height: 50px;
+    left: 30px;
+    background-color: #D3D3D3;
+    border: 1px solid #e1e2e2;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px
+}
+
+.td-div-img {
+    background-color: #000;
+    position: absolute;
+    top: 200px;
+    height: 400px;
+    width: 640px;
+    left: 140px;
+}
+
+.td-div-3 {
+    position: absolute;
+    top: 650px;
+    width: 855px;
+    left: 30px;
+}
