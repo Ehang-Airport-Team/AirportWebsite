@@ -4,7 +4,7 @@
 }
 
 .login-container {
-  height: 600px;
+  height: 500px;
   width: 100%;
   padding-top: 90px;
   background: url(../img/login.png);
@@ -17,7 +17,7 @@
   background: #fff;
   position: absolute;
   top: 135px;
-  right: 50px;
+  right: 150px;
   border-radius: 5px;
 }
 
