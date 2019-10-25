@@ -1,6 +1,6 @@
 .left-nav {
     width: 400px;
-    position: fixed;
+    position: absolute;
 }
 
 .left-nav ul {
