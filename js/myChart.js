@@ -38,7 +38,7 @@ var bar = new Chart(ctx, {
         },
         animation: {
             // 这部分是数值显示的功能实现
-            onComplete: function() {
+            onComplete: function () {
                 var chartInstance = this.chart,
                     ctx = chartInstance.ctx;
                 // 以下属于canvas的属性（font、fillStyle、textAlign...）
@@ -52,9 +52,9 @@ var bar = new Chart(ctx, {
                 ctx.textAlign = "center";
                 ctx.textBaseline = "bottom";
 
-                this.data.datasets.forEach(function(dataset, i) {
+                this.data.datasets.forEach(function (dataset, i) {
                     var meta = chartInstance.controller.getDatasetMeta(i);
-                    meta.data.forEach(function(bar, index) {
+                    meta.data.forEach(function (bar, index) {
                         var data = dataset.data[index];
                         ctx.fillText(data, bar._model.x, bar._model.y - 5);
                     });
@@ -117,7 +117,7 @@ var bar = new Chart(ctx2, {
         },
         animation: {
             // 这部分是数值显示的功能实现
-            onComplete: function() {
+            onComplete: function () {
                 var chartInstance = this.chart,
                     ctx = chartInstance.ctx;
                 // 以下属于canvas的属性（font、fillStyle、textAlign...）
@@ -130,9 +130,9 @@ var bar = new Chart(ctx2, {
                 ctx.textAlign = "center";
                 ctx.textBaseline = "bottom";
 
-                this.data.datasets.forEach(function(dataset, i) {
+                this.data.datasets.forEach(function (dataset, i) {
                     var meta = chartInstance.controller.getDatasetMeta(i);
-                    meta.data.forEach(function(bar, index) {
+                    meta.data.forEach(function (bar, index) {
                         var data = dataset.data[index];
                         ctx.fillText(data, bar._model.x, bar._model.y - 5);
                     });
