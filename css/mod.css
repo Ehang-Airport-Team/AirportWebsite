@@ -1,0 +1,19 @@
+
+.msg li {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 40px;
+}
+
+.msg h3{
+    line-height: 2em;
+    border-bottom: solid 2px black;
+}
+.msg h3 a{
+    font-size: 18px;
+    color: black;
+}
+.msg li a {
+    color: black;
+}
