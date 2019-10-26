@@ -4,6 +4,8 @@
     background: #8e44ad;
     overflow: hidden;
     margin: 0 auto;
+    position: relative;
+    top: 100px;
 }
 .bar-container{
     width: 1050px;
@@ -16,6 +18,7 @@
     background: rgb(249,66,148);
     border-right: 2px white solid;
     position: relative;
+    top: 110px;
     text-align: center;
     list-style-type:none;
     display: block;
