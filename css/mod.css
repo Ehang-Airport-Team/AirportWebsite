@@ -1,0 +1,39 @@
+.banner-static{
+    width: 1050px;
+    height: 460px;
+    background: #8e44ad;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.bar-container{
+    width: 1050px;
+    height: 460px;
+    margin: 0 auto;
+}
+.bar-container ul li{
+    width: 175px;
+    height: 100px;
+    background: rgb(249,66,148);
+    border-right: 2px white solid;
+    position: relative;
+    text-align: center;
+    list-style-type:none;
+    display: block;
+    float: left;
+}
+
+.bar-container ul li a{
+    font-size: 16px;
+    line-height:100px;
+    color: white;
+    text-decoration: none;
+}
+.bar-container ul li span{
+    font-size: 50px;
+    line-height: 50px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    top: 25px;
+}
