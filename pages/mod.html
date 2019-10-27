@@ -259,6 +259,64 @@
             </div>
         </div>
     </div>
+
+
+
+
+
+
+    <div id="div1">
+        <ul>
+            <li>
+                <a href="#"><img src="../img/dc.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/jk.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/jnjp.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src=""></a>
+            </li>
+        </ul>
+    </div>
+    <script>
+        window.onload = function() {
+            var speed = 2;
+            var a = document.getElementById('div1');
+            var b = a.getElementsByTagName('ul')[0];
+            var c = b.getElementsByTagName('li');
+            b.innerHTML = b.innerHTML + b.innerHTML;
+            b.style.width = c[0].offsetWidth * c.length + 'px';
+
+            function move() {
+                if (b.offsetLeft < -b.offsetWidth / 2) {
+                    b.style.left = '0';
+                }
+                if (b.offsetLeft > 0) {
+                    b.style.left = -b.offsetWidth / 2 + 'px';
+                }
+                b.style.left = b.offsetLeft + speed + 'px';
+            }
+            var timer = setInterval(move, 30);
+            b.onmouseover = function() {
+                clearInterval(timer);
+            };
+            b.onmouseout = function() {
+                timer = setInterval(move, 30);
+            };
+            document.getElementsByTagName('a')[0].onclick = function() {
+                speed = -2;
+            }
+            document.getElementsByTagName('a')[1].onclick = function() {
+                speed = 2;
+            }
+        };
+    </script>
+
+
+
     <!-- footer -->
     <div class="footer">
         <div class="text">常用链接：</div>

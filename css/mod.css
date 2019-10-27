@@ -1,4 +1,4 @@
-.banner-static{
+.banner-static {
     width: 1050px;
     height: 460px;
     background: #8e44ad;
@@ -7,31 +7,34 @@
     position: relative;
     top: 100px;
 }
-.bar-container{
+
+.bar-container {
     width: 1050px;
     height: 460px;
     margin: 0 auto;
 }
-.bar-container ul li{
+
+.bar-container ul li {
     width: 175px;
     height: 100px;
-    background: rgb(249,66,148);
+    background: rgb(249, 66, 148);
     border-right: 2px white solid;
     position: relative;
     top: 110px;
     text-align: center;
-    list-style-type:none;
+    list-style-type: none;
     display: block;
     float: left;
 }
 
-.bar-container ul li a{
+.bar-container ul li a {
     font-size: 16px;
-    line-height:100px;
+    line-height: 100px;
     color: white;
     text-decoration: none;
 }
-.bar-container ul li span{
+
+.bar-container ul li span {
     font-size: 50px;
     line-height: 50px;
     color: white;
@@ -48,14 +51,42 @@
     line-height: 40px;
 }
 
-.msg h3{
+.msg h3 {
     line-height: 2em;
     border-bottom: solid 2px black;
 }
-.msg h3 a{
+
+.msg h3 a {
     font-size: 18px;
     color: black;
 }
+
 .msg li a {
     color: black;
+}
+
+#div1 {
+    width: 1200px;
+    height: 200px;
+    margin: 100px auto;
+    position: relative;
+    background: rgb(41, 23, 23);
+    overflow: hidden;
+    display: block;
+}
+
+#div1 ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#div1 ul li {
+    float: left;
+    width: 380px;
+    height: 200px;
+    list-style: none;
+    display: block;
+    border: solid 3px rgb(169, 153, 184);
+    border-radius: 6px;
 }
