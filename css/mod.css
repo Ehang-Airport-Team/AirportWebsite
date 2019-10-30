@@ -10,8 +10,9 @@
 
 .bar-container {
     width: 1050px;
-    height: 460px;
+    height: 220px;
     margin: 0 auto;
+    
 }
 
 .bar-container ul li {
@@ -65,23 +66,23 @@
     color: black;
 }
 
-#div1 {
+#scroll-bar {
     width: 1200px;
     height: 200px;
     margin: 100px auto;
     position: relative;
-    background: rgb(41, 23, 23);
+    background: #8e44ad;
     overflow: hidden;
     display: block;
 }
 
-#div1 ul {
+#scroll-bar ul {
     position: absolute;
     left: 0;
     top: 0;
 }
 
-#div1 ul li {
+#scroll-bar ul li {
     float: left;
     width: 380px;
     height: 200px;

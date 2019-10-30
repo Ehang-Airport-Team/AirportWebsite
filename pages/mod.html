@@ -51,7 +51,7 @@
         </ul>
     </div>
 
-    <div class="msg py-3 bg-light">
+    <div class="msg py-3 bg-white">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-md-4 border rounded border-dark">
@@ -265,7 +265,7 @@
 
 
 
-    <div id="div1">
+    <div id="scroll-bar">
         <ul>
             <li>
                 <a href="#"><img src="../img/dc.jpg"></a>
@@ -284,9 +284,9 @@
     <script>
         window.onload = function() {
             var speed = 2;
-            var a = document.getElementById('div1');
-            var b = a.getElementsByTagName('ul')[0];
-            var c = b.getElementsByTagName('li');
+            var a = document.getElementById('scroll-bar'),
+                b = a.getElementsByTagName('ul')[0],
+                c = b.getElementsByTagName('li');
             b.innerHTML = b.innerHTML + b.innerHTML;
             b.style.width = c[0].offsetWidth * c.length + 'px';
             function move() {
