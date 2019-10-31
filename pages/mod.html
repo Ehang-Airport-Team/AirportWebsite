@@ -39,7 +39,7 @@
     </div>
     <!-- 顶上图片 -->
     <div class="banner-static"></div>
-    <!-- 进度条 -->
+    <!-- 比赛进度条 -->
     <div class="bar-container">
         <ul>
             <li><span>1</span><a href="#">比赛进程</a></li>
@@ -50,8 +50,8 @@
             <li><span>6</span><a href="#">比赛进程</a></li>
         </ul>
     </div>
-
-    <div class="msg py-5 bg-light">
+    <!-- 通知栏 -->
+    <div class="msg py-5 bg-white">
         <div class="container">
             <div class="row ml-4">
                 <div class="col-md-4 border rounded border-dark mr-4 mb-3">
@@ -259,6 +259,59 @@
             </div>
         </div>
     </div>
+    <!-- 滚动的图片栏 -->
+    <div id="scroll-bar">
+        <ul>
+            <li>
+                <a href="#"><img src="../img/dc.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/jk.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/jnjp.jpg"></a>
+            </li>
+            <li>
+                <a href="#"><img src="../img/jnjp.jpg"></a>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        window.onload = function () {
+            var speed = 2;
+            var a = document.getElementById('scroll-bar'),
+                b = a.getElementsByTagName('ul')[0],
+                c = b.getElementsByTagName('li');
+            b.innerHTML = b.innerHTML + b.innerHTML;
+            b.style.width = c[0].offsetWidth * c.length + 'px';
+
+            function move() {
+                if (b.offsetLeft < -b.offsetWidth / 2) {
+                    b.style.left = '0';
+                }
+                if (b.offsetLeft > 0) {
+                    b.style.left = -b.offsetWidth / 2 + 'px';
+                }
+                b.style.left = b.offsetLeft + speed + 'px';
+            }
+            var timer = setInterval(move, 30);
+            b.onmouseover = function () {
+                clearInterval(timer);
+            };
+            b.onmouseout = function () {
+                timer = setInterval(move, 30);
+            };
+            document.getElementsByTagName('a')[0].onclick = function () {
+                speed = -2;
+            }
+            document.getElementsByTagName('a')[1].onclick = function () {
+                speed = 2;
+            }
+        };
+    </script>
+
+
+
     <!-- footer -->
     <div class="footer">
         <div class="text">常用链接：</div>

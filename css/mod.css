@@ -9,8 +9,9 @@
 }
 .bar-container {
     width: 1050px;
-    height: 460px;
+    height: 220px;
     margin: 0 auto;
+    
 }
 .bar-container ul li {
     width: 175px;
@@ -56,6 +57,39 @@
     font-size: 18px;
     color: black;
 }
+
 .msg li a {
     color: black;
+}
+
+#scroll-bar {
+    width: 1200px;
+    height: 200px;
+    margin: 0px auto 10px;
+    position: relative;
+    /* background: #8e44ad; */
+    overflow: hidden;
+}
+
+#scroll-bar ul {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+}
+
+#scroll-bar ul li {
+    display: block;
+    float: left;
+    width: 380px;
+    height: 200px;
+    list-style: none;
+    display: block;
+    border: solid 3px rgb(169, 153, 184);
+    border-radius: 6px;
+}
+
+#scroll-bar ul li img{
+    width: 374px;
+    height: 194px;
 }
