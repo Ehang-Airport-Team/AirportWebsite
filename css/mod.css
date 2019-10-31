@@ -11,7 +11,6 @@
     width: 1050px;
     height: 220px;
     margin: 0 auto;
-    
 }
 .bar-container ul li {
     width: 175px;
@@ -89,7 +88,7 @@
     border-radius: 6px;
 }
 
-#scroll-bar ul li img{
+#scroll-bar ul li img {
     width: 374px;
     height: 194px;
 }
