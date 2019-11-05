@@ -55,7 +55,6 @@ body {
     background: #00cecb;
     animation: changeColor 2s infinite;
     animation-delay: 0.3s;
-    -webkit-animation: changeColor 2s infinite;
 }
 
 @keyframes changeColor {
