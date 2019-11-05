@@ -16,8 +16,26 @@
     list-style: none;
 }
 
+.nav .nav-ul {
+    position: relative;
+}
+
+.nav form {
+    position: absolute;
+    left: 1090px;
+}
+
 .nav ul li {
     float: left;
+    width: 150px;
+    height: 80px;
+    background: #222;
+    margin-right: 1px;
+    font-size: 14px;
+}
+
+.nav ul .li {
+    position: absolute;
     width: 150px;
     height: 80px;
     background: #222;
