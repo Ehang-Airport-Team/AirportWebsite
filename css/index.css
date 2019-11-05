@@ -25,7 +25,7 @@
     left: 1090px;
 }
 
-.nav ul .li {
+.nav ul li {
     float: left;
     width: 150px;
     height: 80px;
@@ -35,7 +35,7 @@
 }
 
 .nav ul .li {
-    float: left;
+    position: absolute;
     width: 150px;
     height: 80px;
     background: #222;
