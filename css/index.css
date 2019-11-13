@@ -34,8 +34,8 @@
     font-size: 14px;
 }
 
-.nav ul .li {
-    float: left;
+.nav ul li {
+    position: absolute;
     width: 150px;
     height: 80px;
     background: #222;
