@@ -1,3 +1,8 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 /* nav */
 .nav {
     width: 100%;
@@ -26,7 +31,7 @@
 }
 
 .nav ul li {
-    position: absolute;
+    float: left;
     width: 150px;
     height: 80px;
     background: #222;
@@ -35,7 +40,7 @@
 }
 
 .nav ul .li {
-    float: left;
+    position: absolute;
     width: 150px;
     height: 80px;
     background: #222;
@@ -213,85 +218,74 @@
 }
 
 /* footer */
-* {
-    padding: 0;
-    margin: 0;
-}
 
 .footer {
     position: relative;
     bottom: 0;
     width: 100%;
-    height: 170px;
+    height: 200px;
     background-color: #333333;
     color: #ffffff;
     font-size: 15px;
     font-family: '微软雅黑';
+    overflow: hidden;
 }
 
-.footer .link .com {
-    display: inline-block;
-    margin: 30px 30px 30px 72px;
-    text-align: center;
-    height: 90px;
-    width: 150px;
-}
-
-.footer .link .com img {
-    height: 85px;
-    width: 150px;
-}
-
-.footer .text {
-    float: left;
+.footer-link {
+    width: 1014px;
     height: 150px;
-    line-height: 150px;
-    margin-left: 150px;
-    font-weight: bold;
-}
-
-.footer .link .com p {
-    margin: 10px 0 10px 0;
-}
-
-.footer .msg img {
-    height: 30px;
-    width: 30px;
-    margin-right: 10px;
-    float: left;
-}
-
-.footer .msg .jd {
-    float: left;
-    height: 110px;
-    line-height: 110px;
-    margin-left: 50px;
-    font-weight: bold;
-}
-
-.footer .msg .size {
-    height: 40px;
-    width: 200px;
-    line-height: 40px;
-    margin-left: 300px;
-}
-
-.footer .msg .emi {
-    padding-top: 20px;
-}
-
-.footer .msg .pos {
     margin-top: 20px;
+    position: relative;
+    margin: 20px auto 0px;
 }
 
-.siz {
-    margin: 40px auto;
-    width: 1200px;
+.footer-link>div {
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+}
+
+.footer-link img {
+    width: 150px;
+    height: 85px;
+    margin: 0px 50px 0px 50px;
+}
+
+.footer-link .text {
+    width: 150px;
+    height: 65px;
+    margin: 0px 50px 0px 50px;
+    text-align: center;
+}
+
+.footer-link .text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    line-height: 65px;
+}
+
+.footer .footer-information {
+    height: 50px;
+    width: 500px;
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer .footer-information a {
+    display: inline-block;
+    color: #636e72;
 }
 
 .right {
     float: right;
     line-height: 30px;
+}
+
+.siz {
+    margin: 40px auto;
+    width: 1200px;
 }
 
 /* 新闻 */
