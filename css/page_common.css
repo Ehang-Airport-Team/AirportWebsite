@@ -50,28 +50,6 @@ body {
     line-height: 50px;
 }
 
-.left-nav ul .active:hover {
-    color: #fff;
-    background: #00cecb;
-    animation: changeColor 2s infinite;
-    animation-delay: 0.3s;
-    -webkit-animation: changeColor 2s infinite;
-}
-
-@keyframes changeColor {
-    0% {
-        background: #1d84b5;
-    }
-
-    50% {
-        background: #00cecb;
-    }
-
-    100% {
-        background: #1d84b5;
-    }
-}
-
 /* .left-nav .search {
     background: rgb(170, 204, 255);
     width: 200px;
