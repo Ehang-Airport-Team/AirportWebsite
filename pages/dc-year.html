@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>dc-year</title>
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/dc-year.css" />
     <link rel="stylesheet" href="../css/page_common.css" />
+    <link rel="stylesheet" href="../lib/search.css">
 </head>
 
 <body>
@@ -44,12 +45,10 @@
                 </ul>
             </li>
         </ul>
-        <form class="navbar-form navbar-left">
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="点击这里搜索" />
-            </div>
-            <button type="submit" class="btn btn-default">搜索</button>
-            <a href="pages/login.html"><button type="button" class="btn btn-info btn-cir">登录</button></a>
+        <form class="form-inline pt-2">
+            <input class="form-control ml-4" type="search" placeholder="Search..." aria-label="Search" />
+            <button class="btn btn-cir btn-outline-primary iconfont ml-3" type="submit">&#xe60c;</button>
+            <a class="btn btn-outline-success ml-3" href="pages/login.html">登录</a>
         </form>
     </div>
 

@@ -50,23 +50,9 @@
 
 .nav ul li:hover {
     color: #fff;
-    background: rgba(238, 82, 83, 1);
+    background: #00A2E9;
     animation: changeColor 2s infinite;
     animation-delay: 0.3s;
-}
-
-@keyframes changeColor {
-    0% {
-        background: #1d84b5;
-    }
-
-    50% {
-        background: #00cecb;
-    }
-
-    100% {
-        background: #1d84b5;
-    }
 }
 
 .nav ul li a {
@@ -84,7 +70,7 @@
     width: 150px;
 
     /*float: initial;*/
-    background: rgba(1, 163, 164, 1);
+    background: #4f4f4f;
     transition: 0.3s;
 }
 
@@ -94,7 +80,7 @@
 
 .nav ul li:hover ul li {
     display: block;
-    border-top: 1px solid rgba(72, 219, 251, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.918);
     z-index: 999;
 }
 
@@ -284,7 +270,7 @@
 }
 
 .siz {
-    margin: 40px auto;
+    margin: 50px auto;
     width: 1200px;
 }
 
