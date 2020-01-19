@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Airport-index</title>
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/bootstrap-3.3.4.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="http://www.jq22.com/jquery/font-awesome.4.6.0.css" />
     <link rel="stylesheet" href="css/index.css">
 </head>
@@ -43,12 +43,16 @@
                 </ul>
             </li>
         </ul>
-        <form class="navbar-form navbar-left">
+        <!-- <form class="navbar-form navbar-left">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="点击这里搜索" />
             </div>
             <button type="submit" class="btn btn-default">搜索</button>
             <a href="pages/login.html"><button type="button" class="btn btn-info btn-cir">登录</button></a>
+        </form> -->
+        <form class="form-inline pt-2">
+            <input class="form-control ml-4" type="search" placeholder="Search..." aria-label="Search" />
+            <button class="btn btn-outline-primary ml-4" type="submit">Search</button>
         </form>
     </div>
 
@@ -154,92 +158,104 @@
             </ul>
         </div>
         <div class="bs-example siz">
-            <div class="row">
-                <div class="col-sm-6 col-md-6">
-                    <div class="thumbnail">
-                        <a href="pages/dachuang.html" class="thumbnail">
-                            <img alt="100%x200
-							  " style="height: 300px; width: 100%; display: block;" src="img/2.jpg" /></a>
-
-                        <div class="caption">
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <div class="card">
+                        <a href="pages/dachuang.html" class="card">
+                            <img alt="100%x200" style="height: 300px; width: 100%; display: block;"
+                                src="img/2.jpg" /></a>
+                        <div class="card-body">
                             <h3>大学生创新创业大赛</h3>
                             <p>
                                 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
                                 porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
                             </p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">我要报名</a>
-                                <a href="pages/mod.html" class="btn btn-default" role="button">查看详情</a><span
-                                    class="right"><i class="fa fa-eye" aria-hidden="true"></i>浏览量</span>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-sm btn-outline-secondary" role="button">我要报名</a>
+                                    <a href="pages/mod.html" class="btn btn-sm btn-outline-primary"
+                                        role="button">查看详情</a>
+                                </div>
+                                <span class="right"><i class="fa fa-eye" aria-hidden="true"></i>浏览量</span>
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6">
-                    <div class="thumbnail">
-                        <a href="pages/mod.html" class="thumbnail">
+                <div class="col-md-6">
+                    <div class="card">
+                        <a href="pages/mod.html" class="card">
                             <img alt="100%x200" style="height: 300px; width: 100%; display: block;"
                                 src="img/jnjp.jpg" />
                         </a>
-                        <div class="caption">
-                            <h3>大学生创新创业大赛</h3>
+                        <div class="card-body">
+                            <h3>大学生节能减排大赛</h3>
                             <p>
                                 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
                                 porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
                             </p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">我要报名</a>
-                                <a href="pages/mod.html" class="btn btn-default" role="button">查看详情</a><span
-                                    class="right"><i class="fa fa-eye" aria-hidden="true"></i>浏览量</span>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-sm btn-outline-secondary" role="button">我要报名</a>
+                                    <a href="pages/mod.html" class="btn btn-sm btn-outline-primary"
+                                        role="button">查看详情</a>
+                                </div>
+                                <span class="right"><i class="fa fa-eye" aria-hidden="true"></i>浏览量</span>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="row">
-                <div class="col-sm-6 col-md-6">
-                    <div class="thumbnail">
+                <div class="col-md-6">
+                    <div class="card">
                         <a href="pages/dachuang.html" class="thumbnail">
                             <img alt="100%x200" style="height: 300px; width: 100%; display: block;"
                                 src="img/dc.jpg" /></a>
 
-                        <div class="caption">
+                        <div class="card-body">
                             <h3>交通科技大赛</h3>
                             <p>
                                 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
                                 porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
                             </p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">我要报名</a>
-                                <a href="pages/dachuang.html" class="btn btn-default" role="button">查看详情</a><span
-                                    class="right"><i class="fa fa-eye" aria-hidden="true"></i>浏览量</span>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-sm btn-outline-secondary" role="button">我要报名</a>
+                                    <a href="pages/mod.html" class="btn btn-sm btn-outline-primary"
+                                        role="button">查看详情</a>
+                                </div>
+                                <span class="right"><i class="fa fa-eye" aria-hidden="true"></i>浏览量</span>
                             </p>
                         </div>
+
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-6">
-                    <div class="thumbnail">
-                        <a href="#" class="thumbnail">
+                <div class="col-md-6">
+                    <div class="card">
+                        <a href="#" class="card">
                             <img alt="100%x200" style="height: 300px; width: 100%; display: block;"
                                 src="img/1.jpg" /></a>
 
-                        <div class="caption">
+                        <div class="card-body">
                             <h3>节能环保大赛</h3>
                             <p>
                                 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
                                 porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
                             </p>
                             <p>
-                                <a href="#" class="btn btn-primary" role="button">我要报名</a>
-                                <a href="#" class="btn btn-default" role="button">查看详情</a><span class="right"><i
-                                        class="fa fa-eye" aria-hidden="true"></i>浏览量</span>
+                                <div class="btn-group">
+                                    <a href="#" class="btn btn-sm btn-outline-secondary" role="button">我要报名</a>
+                                    <a href="pages/mod.html" class="btn btn-sm btn-outline-primary"
+                                        role="button">查看详情</a>
+                                </div>
+                                <span class="right"><i class="fa fa-eye" aria-hidden="true"></i>浏览量</span>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
         <!-- footer -->
         <div class="footer">
             <div class="footer-link">
