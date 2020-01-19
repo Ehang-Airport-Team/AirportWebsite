@@ -23,12 +23,14 @@
     padding: 20px;
 }
 
-.main-body h1 {
+.main-body h1,h2 {
     text-align: center;
 }
+
 .main-body .content-a {
     margin: 40px 0 0 30px;
 }
+
 .main-body .content-a a {
     display: block;
     font-size: 18px;
@@ -36,6 +38,24 @@
     color: rgb(32, 32, 32);
     text-decoration: none;
 }
+
 .main-body .content-a a:hover {
+    color: rgb(49, 126, 243);
+}
+
+/* 比赛获奖与作品页面 */
+.main-body .content-competition {
+    margin: 40px 0 0 30px;
+}
+
+.main-body .content-competition a {
+    display: block;
+    font-size: 17px;
+    line-height: 30px;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+.main-body .content-competition a:hover {
     color: rgb(49, 126, 243);
 }
