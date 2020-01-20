@@ -58,4 +58,22 @@
 
 .main-body .content-competition a:hover {
     color: rgb(49, 126, 243);
+    text-decoration: underline;
+}
+.main-body .outstanding{
+    width: 450px;
+    height: 300px;
+    padding: 10px 92px 10px 92px;
+    display: inline-block;
+}
+.main-body .outstanding .img{
+    width: 250px;
+    height: 250px;
+    background: rgb(32, 32, 32)
+}
+
+.main-body .outstanding p{
+    line-height: 18px;
+    width: 250px;
+    text-align: center;
 }
