@@ -1,79 +1,150 @@
 .clearfix:after {
-    content: '';
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 .clearfix {
-    *zoom: 1;
-    /*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+  *zoom: 1;
+  /*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+
+body {
+  background-color: rgb(238, 238, 238);
 }
 
 .main-body {
-    height: 1000px;
-    width: 950px;
-    position: relative;
-    left: 350px;
-    top: 95px;
-    background-color: #f0f8ff;
-    border: 2px solid #e1e2e2;
-    margin-bottom: 120px;
-    padding: 20px;
+  height: 1000px;
+  width: 950px;
+  position: relative;
+  left: 400px;
+  top: 95px;
+  background-color: white;
+  border-bottom: 1px #eff1f1 solid;
+  box-sizing: border-box;
+  margin-bottom: 120px;
+  padding: 20px;
+  font: 14px/2 tahoma, "\5FAE\8F6F\96C5\9ED1", sans-serif;
 }
 
-.main-body h1,h2 {
-    text-align: center;
+.main-body h1,
+h2 {
+  text-align: center;
 }
 
 .main-body .content-a {
-    margin: 40px 0 0 30px;
+  margin: 40px 0 0 30px;
 }
 
 .main-body .content-a a {
-    display: block;
-    font-size: 18px;
-    line-height: 30px;
-    color: rgb(32, 32, 32);
-    text-decoration: none;
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(32, 32, 32);
+  text-decoration: none;
 }
 
 .main-body .content-a a:hover {
-    color: rgb(49, 126, 243);
+  color: rgb(49, 126, 243);
 }
 
 /* 比赛获奖与作品页面 */
 .main-body .content-competition {
-    margin: 40px 0 0 30px;
+  margin: 40px 0 0 30px;
 }
 
 .main-body .content-competition a {
-    display: block;
-    font-size: 17px;
-    line-height: 30px;
-    text-decoration: none;
-    color: rgb(32, 32, 32);
+  display: block;
+  font-size: 17px;
+  line-height: 30px;
+  text-decoration: none;
+  color: rgb(32, 32, 32);
 }
 
 .main-body .content-competition a:hover {
-    color: rgb(49, 126, 243);
-    text-decoration: underline;
+  color: rgb(49, 126, 243);
+  text-decoration: underline;
 }
-.main-body .outstanding{
-    width: 450px;
-    height: 300px;
-    padding: 10px 92px 10px 92px;
-    display: inline-block;
+.main-body .outstanding {
+  width: 450px;
+  height: 300px;
+  padding: 10px 92px 10px 92px;
+  display: inline-block;
 }
-.main-body .outstanding .img{
-    width: 250px;
-    height: 250px;
-    background: rgb(32, 32, 32)
+.main-body .outstanding .img {
+  width: 250px;
+  height: 250px;
+  background: rgb(32, 32, 32);
 }
 
-.main-body .outstanding p{
-    line-height: 18px;
-    width: 250px;
-    text-align: center;
+.main-body .outstanding p {
+  line-height: 18px;
+  width: 250px;
+  text-align: center;
+}
+
+.main-body h2 {
+  color: #0da0b4;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.main-body .a {
+  background-color: #f0f8ff;
+}
+
+.main-body .item {
+  border-top: 1px #e0e2e2 solid;
+  border-bottom: 0;
+}
+.main-body .badge-country {
+  color: #e9852d;
+  border: 1px #e9852d solid;
+}
+.main-body .badge-city {
+  color: #bb9a6c;
+  border: 1px #c5ab86 solid;
+}
+.main-body .badge-school {
+  color: #1da6ba;
+  border: 1px #69c5d2 solid;
+}
+
+.main-body .list-group a {
+  vertical-align: middle;
+  width: 370px;
+  height: 39px;
+  overflow: hidden;
+  margin-left: 20px;
+  color: #424242;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.main-body .list-group .level-country a:hover {
+  color: #e9852d;
+}
+
+.main-body .list-group .level-city a:hover {
+  color: #bb9a6c;
+}
+.main-body .list-group .level-school a:hover {
+  color: #1da6ba;
+}
+
+.main-body .list-group small {
+  vertical-align: middle;
+  width: 100px;
+  height: 28px;
+  overflow: hidden;
+  text-align: right;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #9d9d9d;
+  margin-left: 18px;
 }

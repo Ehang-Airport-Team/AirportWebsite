@@ -6,7 +6,8 @@ body {
 
 .left-nav {
     width: 400px;
-    position: absolute;
+    position: fixed;
+    margin-top: 100px;
 }
 
 .left-nav ul {
@@ -14,22 +15,14 @@ body {
     list-style: none;
 }
 
-.left-nav ul .blank {
-    height: 10px;
-    background: #fff;
-}
-
 .left-nav ul li {
     width: 180px;
     height: 50px;
     background: rgb(82, 202, 238);
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 14px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    margin: 10px 0;
 }
 
 .left-nav ul .li1 {
