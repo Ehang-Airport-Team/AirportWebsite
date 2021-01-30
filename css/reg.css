@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    color: #666;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+input {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+.w {
+    width: 900px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+}
+
+.shadow {
+    position: relative;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.3), 0px 0px 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+.shadow::before,
+.shadow::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+
+.shadow::before,
+.shadow::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    height: 20%;
+}
+
+.shadow::before,
+.shadow::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    height: 20%;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+    transform: rotate(-3deg);
+}
+
+.shadow::after {
+    right: 10px;
+    left: auto;
+    transform: rotate(3deg);
+}
+
+.register_area {
+    height: 550px;
+    border: 1px solid #ccc;
+}
+
+.reg_form {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+}
+
+.reg_form ul li {
+    margin-bottom: 15px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.reg_form ul li input {
+    margin-left: 10px;
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+}
+
+.reg_form .errorMsg {
+    margin-left: 10px;
+    color: #df3033;
+}
+
+.reg_form .successMsg {
+    margin-left: 10px;
+    color: #40b83f;
+}
+
+.reg_form .error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: -2px;
+    background: url("img/error.png") no-repeat;
+}
+
+.reg_form .success_icon {
+    background: url("img/success.png") no-repeat;
+}
+
+.reg_form .over {
+    width: 200px;
+    height: 34px;
+    background: #c81623;
+    color: #fff;
+    line-height: 34px;
+    font-size: 14px;
+    margin: 30px 0 0 130px;
+}
