@@ -29,70 +29,11 @@ body {
   font: 14px/2 tahoma, "\5FAE\8F6F\96C5\9ED1", sans-serif;
 }
 
-.main-body h1,
-h2 {
-  text-align: center;
-}
-
-.main-body .content-a {
-  margin: 40px 0 0 30px;
-}
-
-.main-body .content-a a {
-  display: block;
-  font-size: 18px;
-  line-height: 30px;
-  color: rgb(32, 32, 32);
-  text-decoration: none;
-}
-
-.main-body .content-a a:hover {
-  color: rgb(49, 126, 243);
-}
-
-/* 比赛获奖与作品页面 */
-.main-body .content-competition {
-  margin: 40px 0 0 30px;
-}
-
-.main-body .content-competition a {
-  display: block;
-  font-size: 17px;
-  line-height: 30px;
-  text-decoration: none;
-  color: rgb(32, 32, 32);
-}
-
-.main-body .content-competition a:hover {
-  color: rgb(49, 126, 243);
-  text-decoration: underline;
-}
-.main-body .outstanding {
-  width: 450px;
-  height: 300px;
-  padding: 10px 92px 10px 92px;
-  display: inline-block;
-}
-.main-body .outstanding .img {
-  width: 250px;
-  height: 250px;
-  background: rgb(32, 32, 32);
-}
-
-.main-body .outstanding p {
-  line-height: 18px;
-  width: 250px;
-  text-align: center;
-}
-
 .main-body h2 {
+  text-align: center;
   color: #0da0b4;
   margin-top: 20px;
   margin-bottom: 40px;
-}
-
-.main-body .a {
-  background-color: #f0f8ff;
 }
 
 .main-body .item {
