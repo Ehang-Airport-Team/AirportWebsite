@@ -1,0 +1,37 @@
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+  /*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+.main-body {
+  height: 2000px;
+  width: 950px;
+  position: relative;
+  left: 400px;
+  top: 95px;
+  background-color: white;
+  border-bottom: 1px #eff1f1 solid;
+  box-sizing: border-box;
+  margin-bottom: 120px;
+  padding: 20px;
+  font: 14px/2 tahoma, "\5FAE\8F6F\96C5\9ED1", sans-serif;
+}
+
+.main-body h2 {
+  color: #bb9a6c;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
