@@ -55,7 +55,7 @@
         <form class="form-inline pt-2">
             <input class="form-control ml-4" type="search" placeholder="Search..." aria-label="Search" />
             <button class="btn btn-cir btn-outline-primary iconfont ml-3" type="submit">&#xe60c;</button>
-            <a class="btn btn-outline-success ml-3" href="pages/login.html">登录</a>
+            <a class="btn btn-outline-success ml-3" href="login.html">登录</a>
         </form>
     </div>
     <!-- 顶上图片 -->
@@ -331,7 +331,7 @@
         </div>
     </div>
     <script type="text/javascript">
-        window.onload = function () {
+        window.onload = function() {
             var speed = 2;
             var a = document.getElementById('scroll-bar'),
                 b = a.getElementsByTagName('ul')[0],
@@ -349,16 +349,16 @@
                 b.style.left = b.offsetLeft + speed + 'px';
             }
             var timer = setInterval(move, 30);
-            b.onmouseover = function () {
+            b.onmouseover = function() {
                 clearInterval(timer);
             };
-            b.onmouseout = function () {
+            b.onmouseout = function() {
                 timer = setInterval(move, 30);
             };
-            document.getElementsByTagName('a')[0].onclick = function () {
+            document.getElementsByTagName('a')[0].onclick = function() {
                 speed = -2;
             }
-            document.getElementsByTagName('a')[1].onclick = function () {
+            document.getElementsByTagName('a')[1].onclick = function() {
                 speed = 2;
             }
         };
