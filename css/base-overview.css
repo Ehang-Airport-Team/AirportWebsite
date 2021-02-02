@@ -19,8 +19,7 @@ body {
   height: 2000px;
   width: 950px;
   position: relative;
-  left: 400px;
-  top: 95px;
+  margin: 95px auto;
   background-color: white;
   border-bottom: 1px #eff1f1 solid;
   box-sizing: border-box;
