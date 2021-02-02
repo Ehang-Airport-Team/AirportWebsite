@@ -33,3 +33,14 @@ function del() {
     //insertBefore(newNode,oldNode)
     ul21.insertBefore(li15, li13);
 }
+
+function HandleOnClose() {
+    var close = confirm("确认报名？");
+    if (close) {
+        window.open("../index.html");
+        window.close("application-form.html")
+    } else {
+        window.event;
+    }
+    return message;
+}
