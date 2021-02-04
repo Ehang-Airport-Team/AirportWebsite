@@ -33,3 +33,21 @@ body {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+.main-body h3 {
+  font-size: 14px;
+  background: #eff1f1;
+  border: 1px solid #e1e2e2;
+  width: 600px;
+  margin: 0 auto;
+  line-height: 2em;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+
+.main-body .contact {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 0;
+}
