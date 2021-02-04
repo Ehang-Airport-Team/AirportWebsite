@@ -1,12 +1,11 @@
 .content {
     position: relative;
     top: 95px;
-    left: 350px;
     height: 1000px;
     width: 950px;
     background: #f0f8ff;
     border: 2px solid #e1e2e2;
-    margin-bottom: 120px;
+    margin: 0 auto 120px;
 }
 
 .content h2,

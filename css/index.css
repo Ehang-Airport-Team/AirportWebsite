@@ -109,12 +109,16 @@
     position: relative;
     top: 88px;
 }
+.main .banner-content{
+    margin: 50px auto;
+    width: 1200px;
+}
 
 .banner {
     width: 800px;
     height: 460px;
     overflow: hidden;
-    margin: 0 155px 50px 0;
+    /* margin: 0 155px 50px 0; */
     position: relative;
     float: right;
 }
@@ -278,7 +282,7 @@
 .news {
     height: 460px;
     width: 350px;
-    margin: 30px 0 0 160px;
+    margin: 0 0;
 }
 
 .news li {
